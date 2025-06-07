@@ -1,10 +1,10 @@
-# 📊 SCR.data - Dados Agregados de Crédito do Banco Central
+# SCR.data - Dados Agregados de Crédito do Banco Central
 
 Repositório de documentação e apoio ao uso dos dados agregados disponibilizados pelo **Banco Central do Brasil** por meio do sistema **SCR.data** (Sistema de Informações de Crédito). Este material é útil para análises estatísticas, estudos econômicos, construção de dashboards e desenvolvimento de modelos relacionados ao mercado de crédito.
 
 ---
 
-## 📌 Introdução
+## Introdução
 
 O **Banco Central do Brasil** divulga mensalmente dados agregados de operações de crédito recebidas através do documento 3040 do Sistema de Informações de Crédito – **SCR**. As informações são atualizadas no último dia útil do mês, com dados referentes a até 60 dias antes da data de publicação.
 
@@ -22,29 +22,29 @@ Com detalhamento por:
 - Origem de recursos
 - Indexador da operação
 
-📅 Período: **Junho de 2012 até a atualidade**
+Período: **Junho de 2012 até a atualidade**
 
-⚠️ **Observação:** Os dados do SCR podem divergir de outras fontes do BCB, como o SGS e notas para imprensa. A razão principal está na granularidade e origem das informações.
+**Observação:** Os dados do SCR podem divergir de outras fontes do BCB, como o SGS e notas para imprensa. A razão principal está na granularidade e origem das informações.
 
 ---
 
-## 🧠 Conceitos
+## Conceitos
 
-### 📌 Escopo
+### Escopo
 Abrange operações de crédito acima de R$1.000 (até mai/2016) ou acima de R$200 (a partir de jun/2016), cursadas no Brasil, reportadas por instituições obrigadas a enviar o documento 3040.
 
-### 📌 Carteira
+### Carteira
 Soma dos valores a vencer e vencidos (modalidades 01 a 13).
 
-### 📌 Inadimplência
+### Inadimplência
 Proporção de operações com parcelas vencidas há mais de 90 dias sobre o total da carteira.
 
-### 📌 Ativo Problemático
+### Ativo Problemático
 Operações com atraso > 90 dias ou com indícios de não pagamento (ex: reestruturação com classificação de risco E a H).
 
 ---
 
-## 📈 Gráficos Interativos (BCB)
+## Gráficos Interativos (BCB)
 
 Disponibilizados no [portal oficial do SCR.data](https://www3.bcb.gov.br/ifdata/), os gráficos permitem segmentações por:
 
@@ -62,26 +62,26 @@ Disponibilizados no [portal oficial do SCR.data](https://www3.bcb.gov.br/ifdata/
 
 ---
 
-## 🗃️ Campos Disponíveis no Portal de Dados Abertos
+## Campos Disponíveis no Portal de Dados Abertos
 
 O Banco Central também fornece os dados em formato tabular (CSV), permitindo análises mais robustas e automatizadas. Os campos incluem:
 
-### 🏦 Tipo de Consolidado Bancário (TCB)
+### Tipo de Consolidado Bancário (TCB)
 - Bancário
 - Não bancário
 - Cooperativas
 
-### 🏛️ Segmento (Resolução nº 4.553/2017)
+### Segmento (Resolução nº 4.553/2017)
 - S1 a S5 (por porte e tipo de instituição)
 
-### 🧍 Tipo de Cliente
+### Tipo de Cliente
 - Pessoas Físicas
 - Pessoas Jurídicas
 
-### 💳 Modalidade de Crédito
+### Modalidade de Crédito
 - Ex: PF - Cartão de Crédito, PJ - Capital de Giro, PJ - Comércio Exterior etc.
 
-### 📍 UF
+### UF
 - Total nacional + 27 unidades da federação (base: CEP da residência/sede)
 
 ### 👷 Natureza da Ocupação (PF)
@@ -97,10 +97,10 @@ O Banco Central também fornece os dados em formato tabular (CSV), permitindo an
 #### PJ:
 - Micro, Pequeno, Médio, Grande
 
-### 💰 Origem dos Recursos
+### Origem dos Recursos
 - Com ou sem destinação específica
 
-### 📈 Indexador da Operação
+### Indexador da Operação
 - Prefixado, Pós-fixado, Índices de preços, TRFC/TCR, etc.
 
 ---
@@ -114,7 +114,7 @@ O Banco Central também fornece os dados em formato tabular (CSV), permitindo an
 
 ---
 
-## 🧪 Possibilidades de uso
+## Possibilidades de uso
 
 - Estudos de inadimplência
 - Modelagem de crédito
@@ -125,16 +125,9 @@ O Banco Central também fornece os dados em formato tabular (CSV), permitindo an
 
 ---
 
-## 📜 Licença
+## Licença
 
 Os dados utilizados neste repositório são de domínio público, conforme disponibilização oficial do Banco Central do Brasil. Este projeto é livre para fins educacionais e analíticos.
 
 ---
 
-## 👨‍💻 Autor
-
-**[Seu Nome]**  
-Desenvolvedor de projetos em Ciência de Dados e Análise Econômica.  
-Contato: [seu-email@exemplo.com]
-
----
