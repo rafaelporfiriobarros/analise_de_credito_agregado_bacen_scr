@@ -1,5 +1,7 @@
 # SCR.data - Dados Agregados de Crédito do Banco Central
 
+![Banco Central do Brasil](https://ww2.gestaoni.com.br/painel/storage/031220165128c47532bbb1e2883c902071591ae1ec9b/img_site/g/73f6914fd787c369ac5f8bdda6c72904.jpg)
+
 Repositório de documentação e apoio ao uso dos dados agregados disponibilizados pelo **Banco Central do Brasil** por meio do sistema **SCR.data** (Sistema de Informações de Crédito). Este material é útil para análises estatísticas, estudos econômicos, construção de dashboards e desenvolvimento de modelos relacionados ao mercado de crédito.
 
 ---
